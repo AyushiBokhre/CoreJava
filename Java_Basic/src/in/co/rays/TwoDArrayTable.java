@@ -1,0 +1,22 @@
+package in.co.rays;
+
+public class TwoDArrayTable {
+    public static void main(String[] args) {
+        int[][] table = new int[10][10];
+
+        // Store multiplication tables
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                table[i][j] = (i + 1) * (j + 1);
+                System.out.print(table[i][j]);
+                System.out.print("\t");
+               
+
+            }
+            System.out.println();
+            System.out.println();
+
+
+        }
+    }
+}
