@@ -16,7 +16,7 @@ public class TestPerson {
 		System.out.println("Name :" + p.getName());
 		System.out.println("Address :" + p.getAddress());
 		System.out.println("DOB :" + sdf.format(p.getDob()));
-		System.out.println("Age : "+p.getAge(p.getDob()));
+		//System.out.println("Age : "+p.getAge(p.getDob()));
 
 		System.out.println("-----------------");
 
@@ -29,7 +29,7 @@ public class TestPerson {
 		System.out.println("Name :" + p1.getName());
 		System.out.println("Address :" + p1.getAddress());
 		System.out.println("DOB :" + sdf.format(p1.getDob()));
-		System.out.println("Age : "+p1.getAge(p1.getDob()));
+		//System.out.println("Age : "+p1.getAge(p1.getDob()));
 
 		
 		System.out.println("-----------------");
@@ -43,7 +43,7 @@ public class TestPerson {
 		System.out.println("Name :" + p2.getName());
 		System.out.println("Address :" + p2.getAddress());
 		System.out.println("DOB :" + sdf.format(p2.getDob()));
-		System.out.println("Age : "+p2.getAge(p2.getDob()));
+		//System.out.println("Age : "+p2.getAge(p2.getDob()));
 
 	}
 
