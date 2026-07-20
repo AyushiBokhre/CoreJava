@@ -1,0 +1,23 @@
+package com.rays.oop.abstraction;
+
+public class Rectangle extends Shape {
+	int length;
+	int width;
+	public int getLength() {
+		return length;
+	}
+	public void setLength(int length) {
+		this.length = length;
+	}
+	public int getWidth() {
+		return width;
+	}
+	public void setWidth(int width) {
+		this.width = width;
+	}
+	@Override
+	public void area() {
+		System.out.println("Area of Rectangle : "+(length*width));
+	}
+
+}
