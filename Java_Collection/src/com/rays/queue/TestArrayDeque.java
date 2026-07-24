@@ -1,0 +1,32 @@
+package com.rays.queue;
+
+import java.util.ArrayDeque;
+
+
+public class TestArrayDeque {
+
+		public static void main(String[] args) {
+
+			ArrayDeque q = new ArrayDeque();
+
+			for (char c = 'a'; c <= 'z'; c++) {
+				q.offer(c);
+			}
+			
+			System.out.println("q: " + q);
+			System.out.println("this is first element: " + q.peek());
+			System.out.println("q: " + q);
+			System.out.println("first element to be remove: " + q.poll());
+			System.out.println("q: " + q);
+			
+			while(!q.isEmpty()) {
+				q.poll();
+			}
+			
+			System.out.println("q: " + q);
+
+		}
+
+	}
+
+
