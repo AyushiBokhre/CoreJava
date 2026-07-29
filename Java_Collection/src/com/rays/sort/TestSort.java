@@ -15,13 +15,9 @@ public class TestSort {
 	c.add('e');
 	c.add('c');
 	
-	System.out.println("Collection :"+c);
+	System.out.println("Before sorting :"+c);
 	Collections.sort(c);
 	System.out.println("After sorting :"+c);
-	
-	Collections.shuffle(c);
-	System.out.println("After shuffle :"+c);
-	
 	
 	}
 }
